@@ -22,6 +22,15 @@ line-height: 1em;
 padding-right: 10px;
 }
 
+tei-placeName tei-persName tei-orgName {
+  font-decoration: underline;
+  color: #252525;
+}
+
+tei-sourceDesc {
+  display:block;
+}
+
 tei-head::before{
   content: attr(n) ". " ;
   /* takes the n attr of head */
