@@ -1,0 +1,41 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+<title>My project</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/CETEIcean.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/CETEI.js"></script>
+</head>
+
+<body>
+<div id="TEI"></div>
+<div>isomorphism as a guiding principle</div>
+<script>
+var CETEIcean = new CETEI();
+/* Behaviours actually change the text, not only css styling */
+CETEIcean.addBehaviors({
+"tei": {
+  "teiHeader": null, /* turn off the hiding of teiHeader */
+  /* "head": [ "[" , "]" ] */
+  "head": function(e){ /* add attribute value from TEI element */
+    let s = document.createElement("span");
+    s.innerHTML = e.getAttribute("n") + " " + e.innerHTML;
+    return s; },
+
+  "persName": function(el) { /* use attributes for persName */
+      var a = document.createElement("a")
+      a.setAttribute("href", el.getAttribute("ref"))
+      a.innerHTML = el.innerHTML;
+      return a;
+    }
+}
+})
+
+CETEIcean.getHTML5("data/001-23juli14-TG-TEI-P5-mrptei.xml", function(data) {
+document.getElementById("TEI").appendChild(data)
+})
+</script>
+</body>
+</html>

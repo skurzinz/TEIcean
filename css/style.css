@@ -1,0 +1,28 @@
+/* additional styling */
+
+/*tei-body { background-color: green ; }*/
+
+tei-head { color: red; font-family: monospace; }
+
+tei-teiHeader {display: block;}
+
+tei-head::after {
+  content: '\A]';
+  display: block;
+}
+
+*[rend="Kapitälchen"]{
+  font-variant: small-caps;
+}
+
+tei-seg[]{
+font-size: 300%;
+float: left;
+line-height: 1em;
+padding-right: 10px;
+}
+
+tei-head::before{
+  content: attr(n) ". " ;
+  /* takes the n attr of head */
+}
