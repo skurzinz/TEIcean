@@ -4,7 +4,7 @@
 
 tei-head { color: red; font-family: monospace; }
 
-tei-teiHeader {display: block;}
+tei-teiheader {display: block;}
 
 tei-head::after {
   content: '\A]';
@@ -22,9 +22,13 @@ line-height: 1em;
 padding-right: 10px;
 }
 
-tei-placeName tei-persName tei-orgName {
-  font-decoration: underline;
+tei-placename tei-persname tei-orgname {
+  text-decoration-style: solid;
   color: #252525;
+}
+
+tei-date {
+  text-decoration-style: dotted;
 }
 
 tei-sourceDesc {
