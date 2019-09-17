@@ -23,11 +23,13 @@ padding-right: 10px;
 }
 
 tei-placename tei-persname tei-orgname {
+  text-decoration: underline;
   text-decoration-style: solid;
   color: #252525;
 }
 
 tei-date {
+  text-decoration: underline;
   text-decoration-style: dotted;
 }
 
