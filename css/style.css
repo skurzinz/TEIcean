@@ -22,7 +22,7 @@ line-height: 1em;
 padding-right: 10px;
 }
 
-tei-placename tei-persname tei-orgname {
+tei-placename, tei-persname, tei-orgname {
   text-decoration: underline;
   text-decoration-style: solid;
   color: #252525;
@@ -33,7 +33,7 @@ tei-date {
   text-decoration-style: dotted;
 }
 
-tei-sourceDesc {
+tei-sourcedesc {
   display:block;
 }
 
