@@ -57,7 +57,9 @@ tei-date {
 }
 
 tei-pb:before {
-  content: "[Seite\a0" attr(n) "]";
+  content: "||" attr(n) "||";
+  color: #ccc;
+  font-size:smaller;
 }
 
 tei-sourcedesc {
