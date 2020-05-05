@@ -60,6 +60,18 @@ tei-date {
   text-decoration-style: dotted;
 }
 
+tei-note {
+  display: block;
+  margin: 1.5em auto 1.5em auto;
+  padding: .5em 1.5em 1.5em 1.5em;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 325px;
+  position: relative;
+  border: 1px solid #aaaaaa;
+  background: #fafafa;
+}
+
 tei-sourcedesc {
   display:block;
 }
