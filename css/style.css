@@ -67,6 +67,11 @@ tei-p {
   padding-bottom: 0;
 }
 
+tei-p + tei-p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 tei-pb:before {
   content: "||" attr(n) "||";
   color: #ccc;
