@@ -17,6 +17,7 @@ CETEIcean.addBehaviors({
 "tei": {
   "teiHeader": null, /* turn off the hiding of teiHeader */
   /* "head": [ "[" , "]" ] */
+  "pb": null,
   "head": function(e){ /* add attribute value from TEI element */
     let s = document.createElement("span");
     s.innerHTML = e.getAttribute("n") + " " + e.innerHTML;
