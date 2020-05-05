@@ -17,10 +17,6 @@ tei-teiheader::after {
   border-bottom: 1px dotted black;
 }
 
-tei-note {
-  display: inline-flex;
-}
-
 tei-head::after {
   display: block;
 }
@@ -58,10 +54,6 @@ tei-placename, tei-persname, tei-orgname {
 tei-date {
   text-decoration: underline;
   text-decoration-style: dotted;
-}
-
-tei-note {
-  display: block;
 }
 
 tei-pb {
