@@ -32,6 +32,7 @@ tei-head::after {
   padding-top: 6px;
   padding-right: 8px;
   padding-left: 3px;
+  text-indent: -1.25rem;
 }
 
 *[rend="uppercase"]{
@@ -56,15 +57,10 @@ tei-date {
   text-decoration-style: dotted;
 }
 
-tei-p:not(tei-hi) {
+tei-p {
   text-indent:1.25rem;
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-tei-p + tei-p {
- margin-top: 0;
- padding-top: 0;
 }
 
 tei-pb:before {
