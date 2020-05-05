@@ -56,9 +56,8 @@ tei-date {
   text-decoration-style: dotted;
 }
 
-tei-pb {
-  content: attr(n) "||";
-  display: inline;
+tei-pb:before {
+  content: "[Seite\a0" attr(n) "]";
 }
 
 tei-sourcedesc {
