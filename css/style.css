@@ -99,5 +99,5 @@ tei-head::before{
 }
 
 tei-title {
-  font-variant: italic;
+  font-style: italic;
 }
