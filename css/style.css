@@ -17,6 +17,10 @@ tei-teiheader {
   border-bottom: 1px dotted black;
 }
 
+tei-tei-header * {
+  color: #ccc;
+}
+
 tei-head::after {
   display: block;
 }
