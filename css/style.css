@@ -97,3 +97,7 @@ tei-head::before{
   content: attr(n) ". " ;
   /* takes the n attr of head */
 }
+
+tei-title {
+  font-variant: italic;
+}
