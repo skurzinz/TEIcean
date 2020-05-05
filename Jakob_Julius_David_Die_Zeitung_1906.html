@@ -61,6 +61,20 @@ CETEIcean.addBehaviors({
   return content;
 },
 
+  "author": function(el) { /* use attributes for persName */
+      var a = document.createElement("a")
+      a.setAttribute("href", el.getAttribute("key"))
+      a.innerHTML = el.innerHTML;
+      return a;
+    },
+  
+  "editor": function(el) { /* use attributes for persName */
+      var a = document.createElement("a")
+      a.setAttribute("href", el.getAttribute("key"))
+      a.innerHTML = el.innerHTML;
+      return a;
+    },
+  
   "rs": function(el) { /* use attributes for persName */
       var a = document.createElement("a")
       a.setAttribute("href", el.getAttribute("key"))
