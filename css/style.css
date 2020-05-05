@@ -72,6 +72,11 @@ tei-note {
   background: #fafafa;
 }
 
+tei-pb {
+  content: attr(n) "||";
+  display: inline;
+}
+
 tei-sourcedesc {
   display:block;
 }
