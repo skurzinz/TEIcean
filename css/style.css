@@ -17,12 +17,18 @@ tei-teiheader {
   border-bottom: 1px dotted black;
 }
 
-tei-tei-header * {
+tei-teiheader * {
   color: #ccc;
 }
 
 tei-head::after {
   display: block;
+}
+
+tei-front {
+  background-color: #efefef;
+  margin: 0 1rem;
+  border-bottom: 1px dotted black;
 }
 
 *[rend="Kapitälchen"]{
