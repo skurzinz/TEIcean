@@ -21,6 +21,14 @@ CETEIcean.addBehaviors({
     let s = document.createElement("span");
     s.innerHTML = e.getAttribute("n") + " " + e.innerHTML;
     return s; },
+  
+  "title": [
+  ["tei-titlestmt>tei-title", function(elt) {
+    let title = document.createElement("title");
+    title.innerHTML = elt.innerText;
+    document.querySelector("head").appendChild(title);
+  }]
+],
 
   "rs": function(el) { /* use attributes for persName */
       var a = document.createElement("a")
