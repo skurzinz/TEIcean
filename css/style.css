@@ -6,6 +6,10 @@ tei-head { color: red; font-family: monospace; }
 
 tei-teiheader {display: block;}
 
+tei-teiheader::after {
+  border-bottom 1px dotted black
+}
+
 tei-note {
   display: inline-flex;
 }
