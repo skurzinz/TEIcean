@@ -1,3 +1,7 @@
+/* html DOM styling */
+
+body { max-width: 50rem; }
+
 /* additional styling */
 
 /*tei-body { background-color: green ; }*/
@@ -7,7 +11,7 @@ tei-head { color: red; font-family: monospace; }
 tei-teiheader {display: block;}
 
 tei-teiheader::after {
-  border-bottom 1px dotted black
+  border-bottom: 1px dotted black;
 }
 
 tei-note {
