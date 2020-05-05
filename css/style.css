@@ -11,9 +11,9 @@ tei-head {
   /* font-family: monospace; */
 }
 
-tei-teiheader {display: block;}
-
-tei-teiheader::after {
+tei-teiheader {
+  display: block;
+  color: #ccc;
   border-bottom: 1px dotted black;
 }
 
