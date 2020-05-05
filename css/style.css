@@ -26,6 +26,7 @@ tei-head::after {
 }
 
 tei-front {
+  display: block;
   background-color: #efefef;
   margin: 0 1rem;
   border-bottom: 1px dotted black;
