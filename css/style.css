@@ -6,8 +6,11 @@ tei-head { color: red; font-family: monospace; }
 
 tei-teiheader {display: block;}
 
+tei-note {
+  display: inline-flex;
+}
+
 tei-head::after {
-  content: '\A]';
   display: block;
 }
 
