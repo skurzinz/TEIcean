@@ -1,279 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
-    <Metadata>
-        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=ONB_Newseye_GT_M1+(htr_id=10810)::::v=2.6.6
-            prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
-            prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA76_249_0mod90.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
-            Transkribus</Creator>
-        <Created>2020-05-20T16:08:34.715+02:00</Created>
-        <LastChange>2020-05-20T16:10:32.805+02:00</LastChange>
-    </Metadata>
-    <Page imageFilename="JJTest.PNG" imageWidth="723" imageHeight="1228">
-        <ReadingOrder>
-            <OrderedGroup id="ro_1589983909087" caption="Regions reading order">
-                <RegionRefIndexed index="0" regionRef="r1"/>
-            </OrderedGroup>
-        </ReadingOrder>
-        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
-            <Coords points="55,42 55,1158 677,1158 677,42"/>
-            <TextLine id="r1l1" custom="readingOrder {index:0;}">
-                <Coords points="334,73 374,76 391,67 432,66 435,65 434,46 400,49 392,42 374,36 366,36 360,43 356,39 349,39 332,45"/>
-                <Baseline points="338,67 368,68 399,66 430,62"/>
-                <TextEquiv>
-                    <Unicode>12 —</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l2" custom="readingOrder {index:1;}">
-                <Coords points="56,132 676,123 676,99 631,90 56,99"/>
-                <Baseline points="61,119 91,119 122,119 152,119 183,119 213,119 244,118 274,118 305,118 335,118 366,118 396,118 427,118 457,118 488,118 518,118 549,118 579,118 610,117 640,117 671,117"/>
-                <TextEquiv>
-                    <Unicode>zum andernmal verheiratet. Seine erste Frau hatte er</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l3" custom="readingOrder {index:2;}">
-                <Coords points="55,160 674,159 674,136 637,125 55,133"/>
-                <Baseline points="60,153 90,153 120,153 151,153 181,153 212,153 242,153 273,153 303,153 334,152 364,152 394,152 425,152 455,152 486,152 516,152 547,152 577,151 608,151 638,150 669,150"/>
-                <TextEquiv>
-                    <Unicode>rein des Geldes willen genommen, und die Kinder wa¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l4" custom="readingOrder {index:3;}">
-                <Coords points="59,192 657,196 676,166 59,168"/>
-                <Baseline points="64,186 94,186 124,186 155,186 185,186 215,186 246,186 276,186 306,186 337,186 367,186 397,186 428,186 458,186 488,186 519,186 549,185 579,185 610,185 640,185 671,185"/>
-                <TextEquiv>
-                    <Unicode>ren ihnen weggestorben. Nun bei Jahren und krän¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l5" custom="readingOrder {index:4;}">
-                <Coords points="62,231 198,221 366,233 425,221 474,232 512,221 512,198 497,195 423,205 333,193 294,209 174,193 121,210 62,194"/>
-                <Baseline points="67,221 92,221 118,221 144,221 170,221 196,221 222,220 248,220 274,220 299,220 325,220 351,220 377,220 403,220 429,220 455,220 481,220 507,220"/>
-                <TextEquiv>
-                    <Unicode>kelnd, freite er ganz nach seiner Wahl.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l6" custom="readingOrder {index:5;}">
-                <Coords points="102,262 675,258 675,238 647,229 102,229"/>
-                <Baseline points="107,255 135,255 163,255 191,255 219,255 247,255 275,255 304,254 332,254 360,254 388,254 416,254 444,254 472,254 501,254 529,254 557,254 585,254 613,254 641,254 670,254"/>
-                <TextEquiv>
-                    <Unicode>Er war allerdings wohl zu alt für sein neues Weib.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l7" custom="readingOrder {index:6;}">
-                <Coords points="57,298 675,294 660,265 57,264"/>
-                <Baseline points="62,289 92,289 122,289 153,289 183,289 214,289 244,289 274,289 305,289 335,289 366,289 396,288 426,288 457,288 487,288 518,288 548,288 578,288 609,288 639,288 670,288"/>
-                <TextEquiv>
-                    <Unicode>Wenn man schon aber viele und beständige Schmerzen</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l8" custom="readingOrder {index:7;}">
-                <Coords points="56,334 681,321 635,298 56,303"/>
-                <Baseline points="61,324 91,324 122,324 153,323 184,323 214,323 245,323 276,323 307,323 337,323 368,323 399,323 430,323 460,323 491,323 522,323 553,323 583,323 614,323 645,322 676,322"/>
-                <TextEquiv>
-                    <Unicode>hat, so liebt man doppelt ein hübsches und freundliches</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l9" custom="readingOrder {index:8;}">
-                <Coords points="57,366 681,356 654,331 602,349 582,334 57,335"/>
-                <Baseline points="62,359 92,359 123,358 154,358 184,358 215,358 246,358 276,358 307,357 338,357 369,357 399,357 430,357 461,357 491,357 522,357 553,357 583,357 614,358 645,358 676,358"/>
-                <TextEquiv>
-                    <Unicode>Gesicht, bei dessen Anblick man ihrer vergißt. Die</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l10" custom="readingOrder {index:9;}">
-                <Coords points="56,396 675,399 675,375 648,369 410,384 384,368 56,366"/>
-                <Baseline points="61,391 91,391 121,391 152,391 182,391 213,391 243,391 274,391 304,391 335,391 365,391 395,391 426,391 456,391 487,391 517,391 548,391 578,391 609,391 639,391 670,390"/>
-                <TextEquiv>
-                    <Unicode>Beine wollten nicht mehr mit. Sie machten ihm ein</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l11" custom="readingOrder {index:10;}">
-                <Coords points="62,436 673,430 673,405 641,401 62,405"/>
-                <Baseline points="67,426 97,426 127,426 157,426 187,426 217,426 247,426 277,426 307,426 337,426 367,426 397,426 427,426 457,426 487,426 517,425 547,425 577,425 607,425 637,425 668,425"/>
-                <TextEquiv>
-                    <Unicode>schweres Kreuz, und die Doktoren schmierten so an ihm</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l12" custom="readingOrder {index:11;}">
-                <Coords points="54,472 144,453 224,474 673,463 673,439 54,437"/>
-                <Baseline points="59,461 89,460 119,460 150,460 180,460 211,460 241,460 272,460 302,460 333,460 363,460 393,460 424,460 454,460 485,460 515,460 546,460 576,460 607,460 637,460 668,460"/>
-                <TextEquiv>
-                    <Unicode>herum. Er mußte auch viele Tage zu Bett liegen, aber</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l13" custom="readingOrder {index:12;}">
-                <Coords points="61,509 650,506 676,497 676,472 61,473"/>
-                <Baseline points="66,495 96,495 126,495 156,495 187,495 217,495 247,495 277,495 308,495 338,495 368,496 398,496 429,496 459,496 489,496 519,496 550,496 580,495 610,495 640,495 671,494"/>
-                <TextEquiv>
-                    <Unicode>sein Geist blieb frisch, und seine Geschäfte trieb er, wie</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l14" custom="readingOrder {index:13;}">
-                <Coords points="55,535 72,531 77,536 89,536 99,530 116,539 137,534 165,540 205,530 205,519 193,520 166,504 144,513 131,503 109,503 97,511 55,508"/>
-                <Baseline points="60,528 88,530 116,530 144,529 172,529 200,531"/>
-                <TextEquiv>
-                    <Unicode>der Jüngste.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l15" custom="readingOrder {index:14;}">
-                <Coords points="103,573 682,563 682,544 633,536 294,550 103,536"/>
-                <Baseline points="108,561 136,562 164,562 193,562 221,563 250,563 278,563 307,563 335,563 364,563 392,563 420,562 449,562 477,562 506,562 534,562 563,562 591,562 620,562 648,562 677,562"/>
-                <TextEquiv>
-                    <Unicode>Er hatte etwas gehabt und einiges erheiratet. Und</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l16" custom="readingOrder {index:15;}">
-                <Coords points="57,601 621,608 675,601 675,572 57,578"/>
-                <Baseline points="62,596 92,596 122,596 153,597 183,597 214,597 244,597 274,597 305,597 335,597 366,597 396,597 426,596 457,596 487,596 518,596 548,596 578,596 609,596 639,596 670,596"/>
-                <TextEquiv>
-                    <Unicode>das war unter seiner Hand gewachsen durch Viehhandel</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l17" custom="readingOrder {index:16;}">
-                <Coords points="58,636 681,628 656,607 508,606 483,624 357,604 187,621 58,609"/>
-                <Baseline points="63,631 93,631 124,631 154,631 185,631 216,631 246,632 277,632 308,632 338,632 369,632 400,631 430,631 461,631 492,631 522,631 553,631 584,631 614,631 645,631 676,631"/>
-                <TextEquiv>
-                    <Unicode>und durch glückliche Spekulationen. Da hatten die</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l18" custom="readingOrder {index:17;}">
-                <Coords points="57,671 679,666 679,651 617,641 156,656 57,641"/>
-                <Baseline points="62,666 92,665 123,665 153,665 184,665 215,665 245,665 276,665 306,665 337,665 368,665 398,666 429,666 459,666 490,666 521,666 551,666 582,666 612,666 643,665 674,665"/>
-                <TextEquiv>
-                    <Unicode>Bauern auf sein Betreiben eine große Mälzerei ge¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l19" custom="readingOrder {index:18;}">
-                <Coords points="59,711 566,712 676,702 676,679 59,683"/>
-                <Baseline points="64,702 94,701 124,701 155,700 185,700 215,700 246,700 276,700 306,700 337,700 367,700 397,700 428,700 458,700 488,700 519,700 549,700 579,700 610,700 640,699 671,699"/>
-                <TextEquiv>
-                    <Unicode>gründet, wie sie anderwärts bestanden und guten Er¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l20" custom="readingOrder {index:19;}">
-                <Coords points="61,740 680,734 611,708 573,724 61,712"/>
-                <Baseline points="66,735 96,735 126,735 157,735 187,735 218,735 248,735 279,735 309,735 340,734 370,734 400,734 431,734 461,734 492,734 522,734 553,734 583,734 614,734 644,734 675,735"/>
-                <TextEquiv>
-                    <Unicode>trag gaben. Wozu erst die Gerste verkaufen und den</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l21" custom="readingOrder {index:20;}">
-                <Coords points="67,772 678,771 678,751 620,745 67,746"/>
-                <Baseline points="72,768 102,768 132,768 162,768 192,768 222,768 252,768 282,768 312,768 342,768 372,768 402,768 432,768 462,768 492,768 522,768 552,768 582,768 612,768 642,768 673,768"/>
-                <TextEquiv>
-                    <Unicode>Deutschen den schönen Rutzen gönnen, den sie aus dem</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l22" custom="readingOrder {index:21;}">
-                <Coords points="58,813 681,803 671,779 597,775 58,775"/>
-                <Baseline points="63,802 93,802 124,802 154,802 185,802 216,802 246,802 277,802 308,802 338,802 369,802 400,802 430,802 461,802 492,802 522,802 553,802 584,802 614,802 645,802 676,802"/>
-                <TextEquiv>
-                    <Unicode>Malz zogen? Wurde nicht jeder reich, der am Handel</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l23" custom="readingOrder {index:22;}">
-                <Coords points="58,841 679,833 649,814 437,807 354,808 320,829 58,814"/>
-                <Baseline points="63,837 93,837 124,836 154,836 185,836 215,836 246,836 276,836 307,837 337,837 368,837 399,837 429,837 460,837 490,837 521,837 551,837 582,836 612,836 643,836 674,835"/>
-                <TextEquiv>
-                    <Unicode>damit beteiligt war? „Wie Brüder wollen wir mit¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l24" custom="readingOrder {index:23;}">
-                <Coords points="51,884 643,882 673,875 673,845 51,852"/>
-                <Baseline points="56,871 86,871 117,871 147,871 178,871 209,871 239,871 270,871 300,871 331,871 362,871 392,871 423,871 453,871 484,871 515,871 545,871 576,871 606,871 637,871 668,872"/>
-                <TextEquiv>
-                    <Unicode>einander sein, wie Brüder!“ Als aber die ersten Jahre</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l25" custom="readingOrder {index:24;}">
-                <Coords points="55,915 569,906 669,921 669,878 55,883"/>
-                <Baseline points="60,905 90,905 120,905 150,905 180,905 211,905 241,905 271,905 301,905 331,905 362,905 392,905 422,905 452,905 482,905 513,905 543,905 573,905 603,905 633,905 664,904"/>
-                <TextEquiv>
-                    <Unicode>nicht gleich den großen Gewinn brachten, den man sich</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l26" custom="readingOrder {index:25;}">
-                <Coords points="57,944 673,946 656,914 57,924"/>
-                <Baseline points="62,940 92,940 122,940 152,940 183,940 213,940 243,940 274,940 304,940 334,940 365,940 395,940 425,940 455,940 486,940 516,940 546,939 577,939 607,939 637,939 668,938"/>
-                <TextEquiv>
-                    <Unicode>erhofft, als man gar Nachzahlungen forderte und wirk¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l27" custom="readingOrder {index:26;}">
-                <Coords points="59,985 670,978 662,951 59,951"/>
-                <Baseline points="64,972 94,972 124,972 154,973 184,973 214,973 244,973 274,973 304,973 334,973 364,973 394,973 424,973 454,973 484,973 514,973 544,973 574,973 604,973 634,972 665,972"/>
-                <TextEquiv>
-                    <Unicode>lich eintrieb, da erschraken die kleinen Leute und war¬</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l28" custom="readingOrder {index:27;}">
-                <Coords points="57,1017 400,1021 498,1004 653,1019 672,1012 672,982 324,999 57,984"/>
-                <Baseline points="62,1008 92,1008 122,1008 152,1008 183,1008 213,1008 243,1008 273,1008 304,1008 334,1008 364,1009 394,1009 425,1009 455,1009 485,1009 515,1008 546,1008 576,1008 606,1007 636,1007 667,1006"/>
-                <TextEquiv>
-                    <Unicode>fen ihre Anteile hin. Zapletal aber bückte sich um</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l29" custom="readingOrder {index:28;}">
-                <Coords points="58,1051 675,1050 675,1028 622,1019 447,1019 429,1035 411,1020 58,1019"/>
-                <Baseline points="63,1043 93,1042 123,1042 154,1041 184,1041 214,1041 245,1041 275,1041 305,1042 336,1042 366,1042 396,1042 427,1043 457,1043 487,1043 518,1043 548,1043 578,1043 609,1043 639,1043 670,1042"/>
-                <TextEquiv>
-                    <Unicode>jeden einzelnen und las ihn auf. Seit damals habe er</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l30" custom="readingOrder {index:29;}">
-                <Coords points="55,1084 556,1091 681,1075 681,1059 615,1051 469,1070 440,1054 55,1054"/>
-                <Baseline points="60,1076 90,1077 121,1077 152,1077 183,1077 214,1077 244,1077 275,1077 306,1077 337,1077 368,1077 398,1077 429,1077 460,1077 491,1077 522,1077 552,1077 583,1077 614,1077 645,1077 676,1077"/>
-                <TextEquiv>
-                    <Unicode>Kreuzschmerzen, spotteten die Leute. Und über Nacht</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l31" custom="readingOrder {index:30;}">
-                <Coords points="57,1121 673,1122 673,1096 634,1089 57,1088"/>
-                <Baseline points="62,1110 92,1110 122,1110 152,1110 183,1110 213,1111 243,1111 274,1111 304,1111 334,1111 365,1112 395,1112 425,1112 455,1112 486,1112 516,1112 546,1112 577,1112 607,1112 637,1112 668,1111"/>
-                <TextEquiv>
-                    <Unicode>war er der alleinige Herr des Unternehmens, das nun</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l32" custom="readingOrder {index:31;}">
-                <Coords points="50,1150 443,1161 471,1148 437,1118 383,1129 319,1119 291,1132 195,1118 182,1129 50,1123"/>
-                <Baseline points="55,1144 80,1144 106,1144 132,1144 157,1145 183,1145 209,1145 234,1145 260,1145 286,1145 311,1145 337,1145 363,1146 388,1146 414,1147 440,1147 466,1148"/>
-                <TextEquiv>
-                    <Unicode>durch seine Klugheit mächtig gedieh.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextEquiv>
-                <Unicode>12 —
-                    zum andernmal verheiratet. Seine erste Frau hatte er
-                    rein des Geldes willen genommen, und die Kinder wa¬
-                    ren ihnen weggestorben. Nun bei Jahren und krän¬
-                    kelnd, freite er ganz nach seiner Wahl.
-                    Er war allerdings wohl zu alt für sein neues Weib.
-                    Wenn man schon aber viele und beständige Schmerzen
-                    hat, so liebt man doppelt ein hübsches und freundliches
-                    Gesicht, bei dessen Anblick man ihrer vergißt. Die
-                    Beine wollten nicht mehr mit. Sie machten ihm ein
-                    schweres Kreuz, und die Doktoren schmierten so an ihm
-                    herum. Er mußte auch viele Tage zu Bett liegen, aber
-                    sein Geist blieb frisch, und seine Geschäfte trieb er, wie
-                    der Jüngste.
-                    Er hatte etwas gehabt und einiges erheiratet. Und
-                    das war unter seiner Hand gewachsen durch Viehhandel
-                    und durch glückliche Spekulationen. Da hatten die
-                    Bauern auf sein Betreiben eine große Mälzerei ge¬
-                    gründet, wie sie anderwärts bestanden und guten Er¬
-                    trag gaben. Wozu erst die Gerste verkaufen und den
-                    Deutschen den schönen Rutzen gönnen, den sie aus dem
-                    Malz zogen? Wurde nicht jeder reich, der am Handel
-                    damit beteiligt war? „Wie Brüder wollen wir mit¬
-                    einander sein, wie Brüder!“ Als aber die ersten Jahre
-                    nicht gleich den großen Gewinn brachten, den man sich
-                    erhofft, als man gar Nachzahlungen forderte und wirk¬
-                    lich eintrieb, da erschraken die kleinen Leute und war¬
-                    fen ihre Anteile hin. Zapletal aber bückte sich um
-                    jeden einzelnen und las ihn auf. Seit damals habe er
-                    Kreuzschmerzen, spotteten die Leute. Und über Nacht
-                    war er der alleinige Herr des Unternehmens, das nun
-                    durch seine Klugheit mächtig gedieh.</Unicode>
-            </TextEquiv>
-        </TextRegion>
-    </Page>
-</PcGts>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main">JJTest</title></titleStmt><publicationStmt><publisher>tranScriptorium</publisher></publicationStmt><sourceDesc><bibl><publisher>TRP document creator: stephan.kurz@univie.ac.at</publisher></bibl></sourceDesc></fileDesc></teiHeader><facsimile xml:id="facs_1"><surface lrx="723" lry="1228" ulx="0" uly="0"><graphic height="1228px" url="JJTest.PNG" width="723px"/><zone points="55,42 55,1158 677,1158 677,42" rendition="TextRegion" xml:id="facs_1_r1">
+                <zone points="334,73 374,76 391,67 432,66 435,65 434,46 400,49 392,42 374,36 366,36 360,43 356,39 349,39 332,45" rendition="Line" xml:id="facs_1_r1l1"/>
+                <zone points="56,132 676,123 676,99 631,90 56,99" rendition="Line" xml:id="facs_1_r1l2"/>
+                <zone points="55,160 674,159 674,136 637,125 55,133" rendition="Line" xml:id="facs_1_r1l3"/>
+                <zone points="59,192 657,196 676,166 59,168" rendition="Line" xml:id="facs_1_r1l4"/>
+                <zone points="62,231 198,221 366,233 425,221 474,232 512,221 512,198 497,195 423,205 333,193 294,209 174,193 121,210 62,194" rendition="Line" xml:id="facs_1_r1l5"/>
+                <zone points="102,262 675,258 675,238 647,229 102,229" rendition="Line" xml:id="facs_1_r1l6"/>
+                <zone points="57,298 675,294 660,265 57,264" rendition="Line" xml:id="facs_1_r1l7"/>
+                <zone points="56,334 681,321 635,298 56,303" rendition="Line" xml:id="facs_1_r1l8"/>
+                <zone points="57,366 681,356 654,331 602,349 582,334 57,335" rendition="Line" xml:id="facs_1_r1l9"/>
+                <zone points="56,396 675,399 675,375 648,369 410,384 384,368 56,366" rendition="Line" xml:id="facs_1_r1l10"/>
+                <zone points="62,436 673,430 673,405 641,401 62,405" rendition="Line" xml:id="facs_1_r1l11"/>
+                <zone points="54,472 144,453 224,474 673,463 673,439 54,437" rendition="Line" xml:id="facs_1_r1l12"/>
+                <zone points="61,509 650,506 676,497 676,472 61,473" rendition="Line" xml:id="facs_1_r1l13"/>
+                <zone points="55,535 72,531 77,536 89,536 99,530 116,539 137,534 165,540 205,530 205,519 193,520 166,504 144,513 131,503 109,503 97,511 55,508" rendition="Line" xml:id="facs_1_r1l14"/>
+                <zone points="103,573 682,563 682,544 633,536 294,550 103,536" rendition="Line" xml:id="facs_1_r1l15"/>
+                <zone points="57,601 621,608 675,601 675,572 57,578" rendition="Line" xml:id="facs_1_r1l16"/>
+                <zone points="58,636 681,628 656,607 508,606 483,624 357,604 187,621 58,609" rendition="Line" xml:id="facs_1_r1l17"/>
+                <zone points="57,671 679,666 679,651 617,641 156,656 57,641" rendition="Line" xml:id="facs_1_r1l18"/>
+                <zone points="59,711 566,712 676,702 676,679 59,683" rendition="Line" xml:id="facs_1_r1l19"/>
+                <zone points="61,740 680,734 611,708 573,724 61,712" rendition="Line" xml:id="facs_1_r1l20"/>
+                <zone points="67,772 678,771 678,751 620,745 67,746" rendition="Line" xml:id="facs_1_r1l21"/>
+                <zone points="58,813 681,803 671,779 597,775 58,775" rendition="Line" xml:id="facs_1_r1l22"/>
+                <zone points="58,841 679,833 649,814 437,807 354,808 320,829 58,814" rendition="Line" xml:id="facs_1_r1l23"/>
+                <zone points="51,884 643,882 673,875 673,845 51,852" rendition="Line" xml:id="facs_1_r1l24"/>
+                <zone points="55,915 569,906 669,921 669,878 55,883" rendition="Line" xml:id="facs_1_r1l25"/>
+                <zone points="57,944 673,946 656,914 57,924" rendition="Line" xml:id="facs_1_r1l26"/>
+                <zone points="59,985 670,978 662,951 59,951" rendition="Line" xml:id="facs_1_r1l27"/>
+                <zone points="57,1017 400,1021 498,1004 653,1019 672,1012 672,982 324,999 57,984" rendition="Line" xml:id="facs_1_r1l28"/>
+                <zone points="58,1051 675,1050 675,1028 622,1019 447,1019 429,1035 411,1020 58,1019" rendition="Line" xml:id="facs_1_r1l29"/>
+                <zone points="55,1084 556,1091 681,1075 681,1059 615,1051 469,1070 440,1054 55,1054" rendition="Line" xml:id="facs_1_r1l30"/>
+                <zone points="57,1121 673,1122 673,1096 634,1089 57,1088" rendition="Line" xml:id="facs_1_r1l31"/>
+                <zone points="50,1150 443,1161 471,1148 437,1118 383,1129 319,1119 291,1132 195,1118 182,1129 50,1123" rendition="Line" xml:id="facs_1_r1l32"/>
+            </zone></surface></facsimile><text><body><pb facs="#facs_1" n="1"/><p facs="#facs_1_r1">
+            <lb facs="#facs_1_r1l1" n="N001"/>12 —
+            <lb facs="#facs_1_r1l2" n="N002"/>zum andernmal verheiratet. Seine erste Frau hatte er
+            <lb facs="#facs_1_r1l3" n="N003"/>rein des Geldes willen genommen, und die Kinder wa¬
+            <lb facs="#facs_1_r1l4" n="N004"/>ren ihnen weggestorben. Nun bei Jahren und krän¬
+            <lb facs="#facs_1_r1l5" n="N005"/>kelnd, freite er ganz nach seiner Wahl.
+            <lb facs="#facs_1_r1l6" n="N006"/>Er war allerdings wohl zu alt für sein neues Weib.
+            <lb facs="#facs_1_r1l7" n="N007"/>Wenn man schon aber viele und beständige Schmerzen
+            <lb facs="#facs_1_r1l8" n="N008"/>hat, so liebt man doppelt ein hübsches und freundliches
+            <lb facs="#facs_1_r1l9" n="N009"/>Gesicht, bei dessen Anblick man ihrer vergißt. Die
+            <lb facs="#facs_1_r1l10" n="N010"/>Beine wollten nicht mehr mit. Sie machten ihm ein
+            <lb facs="#facs_1_r1l11" n="N011"/>schweres Kreuz, und die Doktoren schmierten so an ihm
+            <lb facs="#facs_1_r1l12" n="N012"/>herum. Er mußte auch viele Tage zu Bett liegen, aber
+            <lb facs="#facs_1_r1l13" n="N013"/>sein Geist blieb frisch, und seine Geschäfte trieb er, wie
+            <lb facs="#facs_1_r1l14" n="N014"/>der Jüngste.
+            <lb facs="#facs_1_r1l15" n="N015"/>Er hatte etwas gehabt und einiges erheiratet. Und
+            <lb facs="#facs_1_r1l16" n="N016"/>das war unter seiner Hand gewachsen durch Viehhandel
+            <lb facs="#facs_1_r1l17" n="N017"/>und durch glückliche Spekulationen. Da hatten die
+            <lb facs="#facs_1_r1l18" n="N018"/>Bauern auf sein Betreiben eine große Mälzerei ge¬
+            <lb facs="#facs_1_r1l19" n="N019"/>gründet, wie sie anderwärts bestanden und guten Er¬
+            <lb facs="#facs_1_r1l20" n="N020"/>trag gaben. Wozu erst die Gerste verkaufen und den
+            <lb facs="#facs_1_r1l21" n="N021"/>Deutschen den schönen Rutzen gönnen, den sie aus dem
+            <lb facs="#facs_1_r1l22" n="N022"/>Malz zogen? Wurde nicht jeder reich, der am Handel
+            <lb facs="#facs_1_r1l23" n="N023"/>damit beteiligt war? „Wie Brüder wollen wir mit¬
+            <lb facs="#facs_1_r1l24" n="N024"/>einander sein, wie Brüder!“ Als aber die ersten Jahre
+            <lb facs="#facs_1_r1l25" n="N025"/>nicht gleich den großen Gewinn brachten, den man sich
+            <lb facs="#facs_1_r1l26" n="N026"/>erhofft, als man gar Nachzahlungen forderte und wirk¬
+            <lb facs="#facs_1_r1l27" n="N027"/>lich eintrieb, da erschraken die kleinen Leute und war¬
+            <lb facs="#facs_1_r1l28" n="N028"/>fen ihre Anteile hin. Zapletal aber bückte sich um
+            <lb facs="#facs_1_r1l29" n="N029"/>jeden einzelnen und las ihn auf. Seit damals habe er
+            <lb facs="#facs_1_r1l30" n="N030"/>Kreuzschmerzen, spotteten die Leute. Und über Nacht
+            <lb facs="#facs_1_r1l31" n="N031"/>war er der alleinige Herr des Unternehmens, das nun
+            <lb facs="#facs_1_r1l32" n="N032"/>durch seine Klugheit mächtig gedieh.</p></body></text></TEI>
