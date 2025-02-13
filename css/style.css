@@ -1,14 +1,27 @@
 /* html DOM styling */
 
-body { max-width: 50rem; }
+body, video { max-width: 50rem; }
+
+#TEI-apprentisage tei-head {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 200%;
+  text-indent: 2rem;
+  color: #ffafaf; 
+  background-color:#252525;
+  width: 150%;
+  margin: 20px 0px 10px -2rem;
+  padding: 10px 0px;
+}
 
 /* additional styling */
 
-/*tei-body { background-color: green ; }*/
+tei-body { hyphens: auto; }
 
 tei-head { 
-  color: red; 
-  /* font-family: monospace; */
+  color: #ffafaf; 
 }
 
 tei-teiheader {
@@ -49,6 +62,22 @@ tei-front {
   text-transform:uppercase;
 }
 
+*[rendition="simple:italic"]{
+  font-style: italic;
+}
+
+*[rendition="simple:underline"]{
+  border-bottom;
+}
+
+*[rendition="simple:superscript"]{
+  position: relative; top: -0.5em; font-size: 60%; 
+}
+
+*[rendition="simple:bold"]{
+  font-weight: bold; 
+}
+
 tei-seg[]{
 font-size: 300%;
 float: left;
@@ -70,6 +99,13 @@ tei-date {
 tei-p {
   margin-bottom: 0;
   padding-bottom: 0;
+  
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+  
 }
 
 tei-editor:before {
@@ -93,7 +129,7 @@ tei-sourcedesc {
   display:block;
 }
 
-tei-head::before{
+#TEI tei-head::before{
   content: attr(n) ". " ;
   /* takes the n attr of head */
 }
