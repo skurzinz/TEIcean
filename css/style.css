@@ -3,6 +3,7 @@
 body, video { max-width: 50rem; }
 
 #TEI-apprentisage tei-head {
+  display: block;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 800;
